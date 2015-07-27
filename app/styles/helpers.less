@@ -1,3 +1,4 @@
+@black		  : #000000;
 @white		  : #ffffff;
 @grey         : #333333;
 @lightest-grey: #d8d8d8;
@@ -5,9 +6,6 @@
 @dark-grey    : #e1e1e1;
 @brown		  : #70533A;
 
-.text-center {
-	text-align: center;
-}
 .position-center(@params){
 	float: right;
 	position: relative;
@@ -19,7 +17,7 @@
 	}
 }
 
-.font(@size: 14, @color: @white, @family: 'Champagne & Limousines'){
+.font(@size: 14, @color: @black, @family: 'Champagne & Limousines'){
 	font-family: @family;
 	font-size: @size/10rem;
 	color: @color;
