@@ -8,10 +8,42 @@
     left: -50%;
     text-align: left;
   }
-  .navigation .child {
+  .navigation .nav {
     position: relative;
     left: 50%;
   }
+}
+.navigation-separator {
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+  background-image: url('/images/paw_brown.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.navigation .navbar-nav {
+  vertical-align: middle;
+}
+.navigation .navbar-nav li > a {
+  font-family: 'Champagne & Limousines';
+  font-size: 1.6rem;
+  color: #70533a;
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Champagne & Limousines';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/fonts/Champagne & Limousines.woff') format('woff'), url('/fonts/Champagne & Limousines.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Champagne & Limousines';
+  font-style: normal;
+  font-weight: bold;
+  src: url('/fonts/Champagne & Limousines Bold.woff') format('woff'), url('/fonts/Champagne & Limousines Bold.ttf') format('truetype');
+}
+html {
+  font-size: 62.5%;
 }
 body {
   padding: 0;

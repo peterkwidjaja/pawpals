@@ -1,10 +1,26 @@
 @import "helpers.less";
 @import "navbar.less";
 
+@font-face{
+  font-family: 'Champagne & Limousines';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/fonts/Champagne & Limousines.woff') format('woff'),
+       url('/fonts/Champagne & Limousines.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Champagne & Limousines';
+  font-style: normal;
+  font-weight: bold;
+  src: url('/fonts/Champagne & Limousines Bold.woff') format('woff'),
+       url('/fonts/Champagne & Limousines Bold.ttf') format('truetype');
+}
+html{
+  font-size: 62.5%;
+}
 body {
   padding: 0;
 }
-
 
 /* Make the masthead heading the same height as the navigation */
 .header h3 {

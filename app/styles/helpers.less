@@ -1,3 +1,10 @@
+@white		  : #ffffff;
+@grey         : #333333;
+@lightest-grey: #d8d8d8;
+@light-grey   : #efefef;
+@dark-grey    : #e1e1e1;
+@brown		  : #70533A;
+
 .text-center {
 	text-align: center;
 }
@@ -6,9 +13,14 @@
 	position: relative;
 	left: -50%;
 	text-align: left;
-	
 	.@{params}{
 		position: relative;
 		left:50%;
 	}
+}
+
+.font(@size: 14, @color: @white, @family: 'Champagne & Limousines'){
+	font-family: @family;
+	font-size: @size/10rem;
+	color: @color;
 }

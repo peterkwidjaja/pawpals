@@ -1,5 +1,22 @@
 @media(min-width: 768px){
 	.navigation{
-		.position-center(child);
+		.position-center(nav);
+	}
+}
+.navigation-separator{
+	height: 30px;
+	width: 30px;
+	margin-top: 10px;
+	background-image: url('/images/paw_brown.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.navigation{
+	.navbar-nav{
+		li>a{
+			.font(16,@brown);
+			font-weight: bold;
+		}
+		vertical-align: middle;
 	}
 }
