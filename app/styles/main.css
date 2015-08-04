@@ -45,6 +45,9 @@
   padding-top: 50px;
   padding-bottom: 20px;
 }
+.body-sticky {
+  padding-top: 50px;
+}
 @font-face {
   font-family: 'Champagne & Limousines';
   font-style: normal;
