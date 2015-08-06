@@ -1,9 +1,11 @@
 .jumbotron {
 	h1{
 		.font(100,null,'Peterbuilt');
+		margin-bottom: 30px;
 	}
 	p {
-		.font(30, @white);
+		.font(40, @white);
+		margin:0;
 	}
 	margin-bottom: 0;
 }
@@ -11,6 +13,11 @@
 	background-color: @green;
 	h1 {
 		color: @white;
+	}
+}
+#services {
+	h1{
+		text-align: right;
 	}
 }
 #why {
@@ -71,4 +78,39 @@
 		background-color: @grey;
 	}
 	height: 100px;
+}
+.dog-walking {
+	padding-right: 40px;
+}
+.services-content {
+	.font(50, @brown);
+	font-weight: 700;
+}
+.why-content {
+	.why-paw{
+		height: 50px;
+		width: 50px;
+		display: inline-block;
+		position: relative;
+		vertical-align: middle;
+		margin-right: 10px;
+	}
+	.why-header {
+		display: inline-block;
+		vertical-align: middle;
+		.font(40,@green);
+		font-weight: bold;
+	}
+	.why-info{
+		margin-left: 65px;
+		.font(30, @green);
+	}
+	margin-bottom: 10px;
+}
+.footer {
+	padding-bottom: 130px;
+}
+.team-name {
+	.font(40);
+	text-align: center;
 }
