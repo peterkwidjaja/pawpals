@@ -143,6 +143,11 @@
   color: #70533a;
   font-weight: 700;
 }
+.services-desc {
+  font-family: 'Champagne & Limousines';
+  font-size: 2rem;
+  color: #000000;
+}
 .why-content {
   margin-bottom: 10px;
 }
@@ -171,11 +176,24 @@
 .footer {
   padding-bottom: 130px;
 }
+.team-panel {
+  padding-left: 40px;
+  padding-right: 40px;
+}
 .team-name {
   font-family: 'Champagne & Limousines';
   font-size: 4rem;
   color: #000000;
   text-align: center;
+}
+.team-avatar {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.team-details {
+  font-family: 'Champagne & Limousines';
+  font-size: 2rem;
+  color: #000000;
 }
 @font-face {
   font-family: 'Champagne & Limousines';
@@ -203,6 +221,8 @@ body {
   font-family: 'Champagne & Limousines';
   font-size: 1.4rem;
   color: #000000;
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
 }
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
